@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "907343687868",
+    "project_id": "fir-signinjc",
+    "storage_bucket": "fir-signinjc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907343687868:android:dc6a5ffbb4400d48fe60b9",
+        "android_client_info": {
+          "package_name": "com.urahimli.firebasesigninjc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907343687868-3jrmdjo6t4e482tbekc398ksmat6au83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBy23fCfRZYEvILILUABPfS_dmuM6wJrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907343687868-3jrmdjo6t4e482tbekc398ksmat6au83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
