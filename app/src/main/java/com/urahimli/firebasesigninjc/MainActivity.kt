@@ -28,16 +28,11 @@ import com.urahimli.firebasesigninjc.presentation.sign_in.SignInViewModel
 import com.urahimli.firebasesigninjc.ui.theme.FirebaseSignInJCTheme
 import kotlinx.coroutines.launch
 
-/*
-SHA1: 91:2A:39:5C:1C:0D:BA:37:48:C1:CE:75:DD:4F:C0:89:CA:01:D1:29
-SHA-256: 96:83:40:7F:C4:7E:A3:DC:12:08:CE:99:A7:01:71:A2:95:D7:FF:48:24:DE:07:7F:FD:73:69:38:05:3D:F7:59
-*/
-
 class MainActivity : ComponentActivity() {
 
     private val googleAuthUiClient by lazy {
         GoogleAuthUiClient(
-            context = applicationContext,          //????????
+            context = applicationContext,          
             oneTapClient = com.google.android.gms.auth.api.identity.Identity.getSignInClient(applicationContext)
         )
     }
