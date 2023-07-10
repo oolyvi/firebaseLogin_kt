@@ -14,7 +14,7 @@ import kotlinx.coroutines.tasks.await
 import java.util.concurrent.CancellationException
 
 class GoogleAuthUiClient(
-    private val context: Context,   //context'i alir ki basqa class'da ona gore calissin
+    private val context: Context,   
     private val oneTapClient: SignInClient
 ) {
     private val auth = Firebase.auth
